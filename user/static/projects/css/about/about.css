@@ -1,0 +1,37 @@
+.about_main
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px 40px 2px black;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about_main h1
+{
+    font-size: 50px;
+    
+}
+.about_text
+{
+    width: 700px;
+    
+}
+.about_text span
+{
+    font-size: 25px;
+}
+.about_title
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 212px;
+}

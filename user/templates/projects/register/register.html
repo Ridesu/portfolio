@@ -1,0 +1,24 @@
+{% extends 'base/base.html'%}
+
+{% block content %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'projects/css/login.css' %}">
+<div class="login_main">
+    <div class="login_form">
+        <h1>Реєстрація</h1>
+        <form method="post">
+            {% csrf_token %}
+            {% for f in form %}
+            <div class="form_alling">
+                <label for="{{f.id_for_label}}" style="width: 1000px;">{{f.label}}</label>{{f}}<br>
+                <div>{{f.errors}}</div>
+            </div>
+            {% endfor %}
+            <div class="button_div">
+                <button type="submit" class="changepass_div_button">Реєстрація</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

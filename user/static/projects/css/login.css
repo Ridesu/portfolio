@@ -1,0 +1,67 @@
+h1
+{
+    text-align: center;
+}
+.login_main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login_form
+{
+    background-color: white;
+    box-shadow: 1px 1px 30px 1px black;
+    margin-top: 100px;
+    padding: 100px;
+    border-radius: 10px;
+}
+.form_alling
+{
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+.form_alling input, .form_alling textarea
+{
+    flex: 1; /* Розтягування input по ширині */
+    padding: 5px;
+    margin: 5px 0;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.form_alling textarea
+{
+    max-width: 240px;
+}
+.form_alling label
+{
+    width: 70px; /* Ширина для вирівнювання підписів */
+    margin-right: 10px;
+}
+.changepass_div_button
+{
+    border: 1px solid #4BA651;
+    background-color: #4BA651;
+    color: #F7F6FC;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 13px;
+    box-shadow: 5px 5px 10px #4BA651;
+    
+}
+.button_div
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.changepass_div_button:hover
+{
+    background-color: #3a823f;
+    box-shadow: 2px 2px 10px 0px #2e6932;
+    transition-duration: 0.5s;
+}

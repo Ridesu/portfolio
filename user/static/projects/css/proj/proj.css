@@ -1,0 +1,59 @@
+h1
+{
+    text-align: center;
+}
+.proj_main
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px;
+}
+.proj_post
+{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    flex: 0 0 calc(33,3% - 50px); /* Ширина одного елемента: 25% з урахуванням відступів */
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 2px;
+    
+}
+.proj_post a
+{
+    color: black;
+    text-decoration: none;
+}
+.proj_post a h2
+{
+    text-align: center;
+}
+.proj_post img
+{
+    max-width: 600px;
+}
+.proj_but
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 5px;
+}
+
+.proj_but a button
+{
+    font-weight: 500;
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px 0px black;
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+.proj_but a button:hover
+{
+    transition: 0.5s;
+    box-shadow: -1px -1px 2px 0px black;
+}

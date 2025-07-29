@@ -1,0 +1,59 @@
+.body_head
+{
+    text-align: center;
+}
+
+.body_main{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0px 10px;
+    flex-wrap: wrap;
+}
+.body_post
+{
+    padding: 5px;
+    flex: 0 1 calc(25% - 20px); /* Ширина одного елемента: 25% з урахуванням відступів */
+    box-sizing: border-box; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.body_post h3
+{
+    text-align: center;
+}
+.body_head_button
+{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.body_head_button button
+{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-bottom: 4px;
+    
+    transition: 0.5s;
+}
+.body_head_button button:hover
+{
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 4px;
+    color: white;
+    transition-duration: 0.5s;
+}
+.body_post
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px black;
+}

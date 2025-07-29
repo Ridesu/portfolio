@@ -1,0 +1,143 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f2f5f7;
+}
+.header_menu
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0;
+    align-items: center;
+    box-shadow: 0 2px 10px 0 black;
+}
+.header_opt
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin:0;
+}
+.header_opt a
+{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px 0;
+    margin:0;
+    margin: 15px;
+    margin-left: 20px;
+    color:black;
+}
+.header_auth
+{
+    font-size: 25px;
+    margin-right: 20px;
+}
+.header_auth a, .header_auth span
+{
+    text-decoration: none;
+    color:black;
+}
+.header_menu div
+{
+    margin-left: 15px;
+}
+.header_menu a img
+{
+    height: 50px;
+    
+}
+.header_menu div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.change, .addpage
+{
+    font-size:20px;
+
+}
+.changepass_div
+{
+    width: 800px;
+    padding: 100px 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 2px black;
+    border:1px solid black;
+    
+    
+    
+}
+.changepass_div form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.changepass_main
+{
+    display: flex;
+    justify-content: center; /* Центрування по горизонталі та вертикалі */
+    align-items: center;
+    height: 600px; 
+    
+}
+.changepass_div h1
+{
+    text-align: center;
+    
+}
+.form-group
+{
+    display: flex;
+    align-items: center;
+    width: 600px;
+}
+.form-group input
+{
+    flex: 1; /* Розтягування input по ширині */
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.form-group label
+{
+    width: 200px; /* Ширина для вирівнювання підписів */
+    margin-right: 10px;
+}
+.changepass_div_button
+{
+    border: 1px solid #4BA651;
+    background-color: #4BA651;
+    color: #F7F6FC;
+    border-radius: 3px;
+    padding: 10px 50px;
+    font-size: 13px;
+    box-shadow: 5px 5px 10px #4BA651;
+    
+}
+.button_div
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.changepass_div_button:hover
+{
+    background-color: #3a823f;
+    box-shadow: 2px 2px 0px 0 #2e6932;
+    transition-duration: 0.5s;
+}
+.about_main
+{
+    background-color: white;
+    width: 300px;
+}

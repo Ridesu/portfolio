@@ -1,0 +1,21 @@
+{% extends 'base/base.html' %}
+{% block content %}
+
+<div class="changepass_main">
+  <div class="changepass_div">
+    <h1>Зміна паролю</h1>
+    <form method="post">
+      {% csrf_token %}
+      {% for f in form %}
+        <div class="form-group">
+          <label for="{{f.id_for_label}}">{{f.label}}</label>{{f}}
+          <div>{{f.errors}}</div>
+        </div>
+      {% endfor %}
+      <div class="button_div">
+        <button type="submit" class="changepass_div_button">Змінити пароль</button>
+      </div>
+      </form>
+  </div>
+</div>
+{% endblock %}

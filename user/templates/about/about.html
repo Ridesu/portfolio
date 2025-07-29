@@ -1,0 +1,17 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'projects/css/about/about.css' %}">
+
+<div class="about_main">
+    <div class="about_title">
+        <img src="{% static 'projects/css/img/hacker.png' %}" style="width:100px;">
+        <h1>Привіт, я Вадим</h1>
+    </div>
+    <div class="about_text">
+        <span>Я початківець у фронтенд-розробці. Зараз вивчаю основи HTML, CSS та JavaScript, експериментую зі створенням простих веб-сторінок. Мені подобається бачити, як код оживає в браузері, і я хочу навчитися створювати красиві та зручні інтерфейси для користувачів. Попереду багато нового, але я готовий працювати й розвиватися!</span>
+    </div>
+</div>
+
+{% endblock %}
