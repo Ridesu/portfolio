@@ -38,14 +38,14 @@ The portfolio is designed to be **clean, minimalistic, and fast**, focusing on c
 ---
 
 ## 📂 Project Structure
-portfolio/
-├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ └── script.js
-└── assets/
-└── images/
+portfolio/<br>
+├── index.html<br>
+├── css/<br>
+│ └── style.css<br>
+├── js/<br>
+│ └── script.js<br>
+└── assets/<br>
+└── images/<br>
 ## 🚀 Getting Started
 
 To run the project locally:
