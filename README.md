@@ -2,7 +2,8 @@
 
 Personal portfolio website that showcases my projects, skills, and background as a junior developer / cybersecurity enthusiast.
 
-🔗 Live demo: https://ridesu.github.io/portfolio/
+⚠️ This project is not deployed yet.
+The focus of this repository is backend logic and architecture.
 
 ---
 
