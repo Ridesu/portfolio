@@ -41,7 +41,6 @@ class LoginUser(LoginView):
         context1['addurl'] = "addpage"
         return context1
 
-
 class ChangePassword(PasswordChangeView):
     form_class = ChangePasswordForm
     template_name = 'projects/changepass/changepass.html'
