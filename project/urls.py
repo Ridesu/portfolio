@@ -12,5 +12,5 @@ urlpatterns = [
     path("addproject/", add_project, name='addproject'),
     path('deleteproject/<int:pk>/', del_project, name='delproject'),
     path('seepage/<int:pk>/', see_page, name='see'),
-    path('blog', index, name='home'),
+    path('about_me', index, name='home'),
 ]
