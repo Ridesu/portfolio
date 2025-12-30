@@ -1,13 +1,12 @@
 import os
 from urllib.parse import unquote
-
-from project.models import *
+from .models import *
 from project.static.project.forms import AddPostForm, ChangePost, ChangeProject, AddProjectForm
-
 from django.http import HttpResponse, Http404
 from django.shortcuts import render, redirect, get_object_or_404
 
-menu = [{'title': "Проєкти",'url_name': 'project'}, {'title': "Про автора", "url_name": 'about'}]
+
+menu = [{'title': "Проєкти",'url_name': 'project'}, {'title': "Блог", "url_name": 'home'}]
 
 # Create your views here.
 def index(request):
