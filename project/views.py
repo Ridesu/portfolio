@@ -16,7 +16,7 @@ def index(request):
 def view_project(request):
     p = ModelForProjects.objects.all()
 
-    return render(request, 'projects/main.html', {'proj': p,'menu': menu, 'title': "Проєкти", 'addurl': 'addproject'})
+    return render(request,  'projects/main.html', {'proj': p,'menu': menu, 'title': "Проєкти", 'addurl': 'addproject'})
 
 def changePage(request, pk):
     if not request.user.is_authenticated:
